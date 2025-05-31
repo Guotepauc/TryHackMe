@@ -12,9 +12,9 @@ Go to [Rooms per categories](#Other-Rooms-per-Categories)
 
 ### Compromising Active Directory
 Learn and exploit Active Directory networks through core security issues stemming from misconfigurations.  
-+ Active Directory Basics : This room will introduce the basic concepts and functionality provided by Active Directory.
-+ Breaching Active Directory : This network covers techniques and tools that can be used to acquire that first set of AD credentials that can then be used to enumerate AD.
-+ Enumerating Active Directory : This room covers various Active Directory enumeration techniques, their use cases as well as drawbacks.
++ [Active Directory Basics](https://tryhackme.com/room/winadbasics) : This room will introduce the basic concepts and functionality provided by Active Directory.
++ [Breaching Active Directory](https://tryhackme.com/room/breachingad) : This network covers techniques and tools that can be used to acquire that first set of AD credentials that can then be used to enumerate AD.
++ [Enumerating Active Directory](https://tryhackme.com/room/adenumeration) : This room covers various Active Directory enumeration techniques, their use cases as well as drawbacks.
 + Lateral Movement and Pivoting : Learn about common techniques used to move laterally across a Windows network.
 + Exploiting Active Directory : Learn common AD exploitation techniques that can allow you to reach your goal in an AD environment.
 + Persisting Active Directory : Learn about common Active Directory persistence techniques that can be used post-compromise to ensure the blue team will not be able to kick you out during a red team exercise.
