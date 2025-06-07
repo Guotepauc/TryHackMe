@@ -8,6 +8,14 @@ Go to [Rooms per categories](#Other-Rooms-per-Categories)
 
 ## Path Learnings
 
+### Computer Science Basics
+[Introduction to Cyber Security](##Path-Learnings)
+
+
+
+
+
+
 ## Modules
 
 ### Compromising Active Directory
@@ -19,6 +27,11 @@ Learn and exploit Active Directory networks through core security issues stemmin
 + Exploiting Active Directory : Learn common AD exploitation techniques that can allow you to reach your goal in an AD environment.
 + Persisting Active Directory : Learn about common Active Directory persistence techniques that can be used post-compromise to ensure the blue team will not be able to kick you out during a red team exercise.
 + Credentials Harvesting : Apply current authentication models employed in modern environments to a red team approach.
+
+### Introduction to Cyber Security
++ [Offensive Security Intro](https://tryhackme.com/room/offensivesecurityintro) : Hack your first website (legally in a safe environment) and experience an ethical hacker's job. 
++ [Defensive Security Intro](https://tryhackme.com/room/defensivesecurityintro) : Introducing defensive security and related topics, such as Threat Intelligence, SOC, DFIR, Malware Analysis, and SIEM.
++ [Careers in Cyber](https://tryhackme.com/room/careersincyber) : Introducing defensive security and related topics, such as Threat Intelligence, SOC, DFIR, Malware Analysis, and SIEM.
 
 ## Other Rooms per Categories
 
