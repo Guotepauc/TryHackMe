@@ -22,6 +22,11 @@ Go to [Other rooms per categories](#Other-Rooms-per-Categories)
     [Introduction to Pentesting](#Introduction-to-Pentesting)  
     [Introduction to Web Hacking](#Introduction-to-Web-Hacking) 
     [Burp Suite](#Burp-Suite) 
+    [Network Security](#Network-Security) 
+    [Vulnerability Research](#Vulnerability-Research) 
+    [Metasploit](#Metasploit) 
+    [Privilege Escalation](#Privilege-Escalation) 
+    [Jr. Penetration Tester Certification (PT1)](https://tryhackme.com/certification/junior-penetration-tester)
 
 ## Modules
 
@@ -40,7 +45,7 @@ Learn and exploit Active Directory networks through core security issues stemmin
 + [Principles of Security](https://tryhackme.com/room/principlesofsecurity) : Learn the principles of information security that secures data and protects systems from abuse.
 
 ### Introduction to Web Hacking
-+ [Walking An Application]([https://tryhackme.com/room/walkinganapplication) : Manually review a web application for security issues using only your browsers developer tools. Hacking with just your browser, no tools or scripts.
++ [Walking An Application](https://tryhackme.com/room/walkinganapplication) : Manually review a web application for security issues using only your browsers developer tools. Hacking with just your browser, no tools or scripts.
 + [Content Discovery](https://tryhackme.com/room/contentdiscovery) : Learn the various ways of discovering hidden or private content on a webserver that could lead to new vulnerabilities.
 + [Subdomain Enumeration](https://tryhackme.com/room/subdomainenumeration) : Learn the various ways of discovering subdomains to expand your attack surface of a target.
 + [Authentication Bypass](https://tryhackme.com/room/authenticationbypass) : Learn how to defeat logins and other authentication mechanisms to allow you access to unpermitted areas.
@@ -58,6 +63,32 @@ Learn and exploit Active Directory networks through core security issues stemmin
 + [Burp Suite: Intruder](https://tryhackme.com/room/burpsuiteintruder) : Learn how to use Intruder to automate requests in Burp Suite.
 + [Burp Suite: Other Modules](https://tryhackme.com/room/burpsuiteom) : Take a dive into some of Burp Suite's lesser-known modules.
 + [Burp Suite: Extensions](https://tryhackme.com/room/burpsuiteextensions) : Learn how to use Extensions to broaden the functionality of Burp Suite.
+
+### Network Security
++ [Passive Reconnaissance](https://tryhackme.com/room/passiverecon) : Learn about the essential tools for passive reconnaissance, such as whois, nslookup, and dig.
++ [Active Reconnaissance](https://tryhackme.com/room/activerecon) : Learn how to use simple tools such as traceroute, ping, telnet, and a web browser to gather information.
++ [Nmap Live Host Discovery](https://tryhackme.com/room/nmap01) : Learn how to use Nmap to discover live hosts using ARP scan, ICMP scan, and TCP/UDP ping scan.
++ [Nmap Basic Port Scans](https://tryhackme.com/room/nmap02) : Learn in-depth how nmap TCP connect scan, TCP SYN port scan, and UDP port scan work.
++ [Nmap Advanced Port Scans](https://tryhackme.com/room/nmap03) : Learn advanced techniques such as null, FIN, Xmas, and idle (zombie) scans, spoofing, in addition to FW and IDS evasion.
++ [Nmap Post Port Scans](https://tryhackme.com/room/nmap04) : Learn how to leverage Nmap for service and OS detection, use Nmap Scripting Engine (NSE), and save the results.
++ [Protocols and Servers](https://tryhackme.com/room/protocolsandservers) : Learn about common protocols such as HTTP, FTP, POP3, SMTP and IMAP, along with related insecurities.
++ [Protocols and Servers 2](https://tryhackme.com/room/protocolsandservers2) : Learn about attacks against passwords and cleartext traffic; explore options for mitigation via SSH and SSL/TLS.
++ [Net Sec Challenge](https://tryhackme.com/room/netsecchallenge) : Practice the skills you have learned in the Network Security module.
+
+### Vulnerability Research
++ [Vulnerabilities 101](https://tryhackme.com/room/vulnerabilities101) : Understand the flaws of an application and apply your researching skills on some vulnerability databases.
++ [Exploit Vulnerabilities](https://tryhackme.com/room/exploitingavulnerabilityv2) : Learn about some of the tools, techniques and resources to exploit vulnerabilities
++ [Vulnerability Capstone](https://tryhackme.com/room/vulnerabilitycapstone) : Apply the knowledge gained throughout the Vulnerability Module in this challenge room.
+
+### Metasploit
++ [Metasploit: Introduction](https://tryhackme.com/room/metasploitintro) : An introduction to the main components of the Metasploit Framework.
++ [Metasploit: Exploitation](https://tryhackme.com/room/metasploitexploitation) : Using Metasploit for scanning, vulnerability assessment and exploitation.
++ [Metasploit: Meterpreter](https://tryhackme.com/room/meterpreter) : Hack your first website (legally in a safe environment) and experience an ethical hacker's job.
+
+### Privilege Escalation
++ [What the Shell?](https://tryhackme.com/room/introtoshells) : An introduction to sending and receiving (reverse/bind) shells when exploiting target machines.
++ [Linux Privilege Escalation](https://tryhackme.com/room/linprivesc) : Learn the fundamentals of Linux privilege escalation. From enumeration to exploitation, get hands-on with over 8 different privilege escalation techniques.
++ [Windows Privilege Escalation](https://tryhackme.com/room/windowsprivesc20) : Learn the fundamentals of Windows privilege escalation techniques.
 
 ### Introduction to Cyber Security
 + [Offensive Security Intro](https://tryhackme.com/room/offensivesecurityintro) : Hack your first website (legally in a safe environment) and experience an ethical hacker's job. 
@@ -80,7 +111,7 @@ Learn and exploit Active Directory networks through core security issues stemmin
 ### Linux Fundamentals
 + [Linux Fundamentals Part 1](https://tryhackme.com/room/linuxfundamentalspart1) : Embark on the journey of learning the fundamentals of Linux. Learn to run some of the first essential commands on an interactive terminal.
 + [Linux Fundamentals Part 2](https://tryhackme.com/room/linuxfundamentalspart2) : Continue your learning Linux journey with part two. You will be learning how to log in to a Linux machine using SSH, how to advance your commands, file system interaction.
-+ [Linux Fundamentals Part 3]([https://tryhackme.com/room/linuxfundamentalspart1](https://tryhackme.com/room/linuxfundamentalspart3)) : Power-up your Linux skills and get hands-on with some common utilities that you are likely to use day-to-day!
++ [Linux Fundamentals Part 3](https://tryhackme.com/room/linuxfundamentalspart3) : Power-up your Linux skills and get hands-on with some common utilities that you are likely to use day-to-day!
 
 ### Windows Fundamentals
 + [Windows Fundamentals 1](https://tryhackme.com/room/windowsfundamentals1xbx) : In part 1 of the Windows Fundamentals module, we'll start our journey learning about the Windows desktop, the NTFS file system, UAC, the Control Panel, and more..
@@ -88,4 +119,6 @@ Learn and exploit Active Directory networks through core security issues stemmin
 + [Windows Fundamentals 3](https://tryhackme.com/room/windowsfundamentals3xzx) : In part 3 of the Windows Fundamentals module, learn about the built-in Microsoft tools that help keep the device secure, such as Windows Updates, Windows Security, BitLocker, and more...
 
 ## Other Rooms per Categories
+
+
 
