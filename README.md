@@ -4,7 +4,7 @@
 :crossed_flags:	Path Learnings contain Modules. Modules contain Rooms. Many Rooms including Challenges are not in any module.:crossed_flags:	  
 Go to [Path Learnings](#Path-Learnings)  
 Go to [Modules](#Modules)  
-Go to [Other rooms per categories](#Other-Rooms-per-Categories)  
+Go to [Challenges and other rooms](#Other-Rooms-per-Categories)  
 
 ## Path Learnings
 
@@ -119,6 +119,14 @@ Learn and exploit Active Directory networks through core security issues stemmin
 + [Windows Fundamentals 3](https://tryhackme.com/room/windowsfundamentals3xzx) : In part 3 of the Windows Fundamentals module, learn about the built-in Microsoft tools that help keep the device secure, such as Windows Updates, Windows Security, BitLocker, and more...
 
 ## Other Rooms per Categories
+
+### Advent of Cyber 3 (2021)
+| Day # | Type | Name | content of challenge |
+| Day 1 | Web Exploitation  | Save The Gift | IDOR |
+| Day 2 | Web Exploitation  | Elf HR problems | cookies |
+| Day 3 | Web Exploitation  | Christmas Blackout | content discovery, dirb |
+| Day 4 | Web Exploitation  | Santa's Running Behind | fuzzing, burp |
+| Day 5 | Web Exploitation  | Pesky Elf Forum | XSS |
 
 
 
