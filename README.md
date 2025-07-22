@@ -1,32 +1,32 @@
 # TryHackMe
 ** This repo aims to help TryHackMe members to choose the right rooms. It is also proviving tags for each room to know what it is about and what tools are typically used in each room. **
 
-:crossed_flags:	Path Learnings contain Modules. Modules contain Rooms. Many Rooms including Challenges are not in any module.:crossed_flags:	  
+:crossed_flags:	Path Learnings contain Modules. Modules contain Rooms. There also many other rooms including challenges.:crossed_flags:	  
 Go to [Path Learnings](#Path-Learnings)  
 Go to [Modules](#Modules)  
-Go to [Challenges and other rooms](#Other-Rooms-per-Categories)  
+Go to [Challenges](#Challenges)  
 
 ## Path Learnings
 
 
 ### Computer Science Basics
-    [Introduction to Cyber Security](#Introduction-to-Cyber-Security)  
-    [Network Fundamentals](#Network-Fundamentals)  
-    [How The Web Works](#How-The-Web-Works)  
-    [Linux Fundamentals](#Linux-Fundamentals)  
-    [Windows Fundamentals](#Windows-Fundamentals)
++ [Introduction to Cyber Security](#Introduction-to-Cyber-Security)  
++ [Network Fundamentals](#Network-Fundamentals)  
++ [How The Web Works](#How-The-Web-Works)  
++ [Linux Fundamentals](#Linux-Fundamentals)  
++ [Windows Fundamentals](#Windows-Fundamentals)
 
 ### Penetration Tester 
 ### Jr Penetration Tester
-    [Introduction to Cyber Security](#Introduction-to-Cyber-Security)  
-    [Introduction to Pentesting](#Introduction-to-Pentesting)  
-    [Introduction to Web Hacking](#Introduction-to-Web-Hacking) 
-    [Burp Suite](#Burp-Suite) 
-    [Network Security](#Network-Security) 
-    [Vulnerability Research](#Vulnerability-Research) 
-    [Metasploit](#Metasploit) 
-    [Privilege Escalation](#Privilege-Escalation) 
-    [Jr. Penetration Tester Certification (PT1)](https://tryhackme.com/certification/junior-penetration-tester)
++ [Introduction to Cyber Security](#Introduction-to-Cyber-Security)  
++ [Introduction to Pentesting](#Introduction-to-Pentesting)  
++ [Introduction to Web Hacking](#Introduction-to-Web-Hacking) 
++ [Burp Suite](#Burp-Suite) 
++ [Network Security](#Network-Security) 
++ [Vulnerability Research](#Vulnerability-Research) 
++ [Metasploit](#Metasploit) 
++ [Privilege Escalation](#Privilege-Escalation) 
++ [Jr. Penetration Tester Certification (PT1)](https://tryhackme.com/certification/junior-penetration-tester)
 
 ## Modules
 
@@ -118,15 +118,59 @@ Learn and exploit Active Directory networks through core security issues stemmin
 + [Windows Fundamentals 2](https://tryhackme.com/room/windowsfundamentals2x0x) : In part 2 of the Windows Fundamentals module, discover more about System Configuration, UAC Settings, Resource Monitoring, the Windows Registry and more..
 + [Windows Fundamentals 3](https://tryhackme.com/room/windowsfundamentals3xzx) : In part 3 of the Windows Fundamentals module, learn about the built-in Microsoft tools that help keep the device secure, such as Windows Updates, Windows Security, BitLocker, and more...
 
-## Other Rooms per Categories
+## Challenges
+
+### Advent of Cyber 1 (2019)
+| Day # |  Name | content of challenge |
+| ----- |  ---- | --------------       |
+|   1   | Inventory Management | cookie, burp |
+|   2   | Artic Forum | enumeration, dirsearch, gobuster |
+|   3   | Evil Elf | password cracking, hashcat, wireshark |
+|   4   | Training | grep, linux |
+|   5   | Ho-Ho-Hosing | exiftool, wayback machine, reverse image search |
+|   6   | Data Elf-iltration | wireshark, dns, steghide |
+|   7   | Skilling up | udp scan, tcp scan |
+|   8   | SUID Shenigans | SUID, privesc |
+|   9   | Request | python, requests |
+|  10   | Metasploit-a-ho-ho-ho | metasploit, shell, reverse shell, struts vuln |
+|  11   | Elf Applications | nmap, showmount, NFS, ftp, sql |
+|  12   | Elfcryption | gpg |
+|  13   | Accumulate | nmap, gobuster, rdp, privesc, exploit certificate |
+|  14   | Unknown Storage | AWS S3 bucket |
+|  15   | LFI | burp, hashcat, lfi |
+|  16   | File Confusion | exiftool, python |
+|  17   | Hydra-ha-ha-haa | Hydra, bruteforce password ssh http |
+|  18   | ELF JS | reflected XSS, stores XSS, shell |
+|  19   | Commands | command injection |
+|  20   | Cronjob Privilege Escalation | privesc, hydra, crontab |
+|  21   | Reverse Elf-ineering | reverse engineering, radara2 |
+|  22   | If Santa, Then Christmas | radare2 |
+|  23   | LapLANd (SQL injection) | SQL injection, sqlmap, hashcat, shell |
+|  24   | Elf Stalk | nmap, elasticsearch, kibana lfi |
 
 ### Advent of Cyber 3 (2021)
-| Day # | Type | Name | content of challenge |
-| Day 1 | Web Exploitation  | Save The Gift | IDOR |
-| Day 2 | Web Exploitation  | Elf HR problems | cookies |
-| Day 3 | Web Exploitation  | Christmas Blackout | content discovery, dirb |
-| Day 4 | Web Exploitation  | Santa's Running Behind | fuzzing, burp |
-| Day 5 | Web Exploitation  | Pesky Elf Forum | XSS |
-
-
-
+| Day # |  Name | content of challenge |
+| ----- |  ---- | --------------       |
+|   1  | Save The Gift | web exploitation, IDOR |
+|   2  | Elf HR problems | web exploitation, cookies |
+|   3  | Christmas Blackout | web exploitation, content discovery, dirb |
+|   4  | Santa's Running Behind | web exploitation, fuzzing, burp |
+|   5  | Pesky Elf Forum | web exploitation, XSS |
+|   6  | Patch Management Is Hard | web expoitation, LFI to RCE |
+|   7  | Migration Without Security | web exploitation, NoSQL, MongoDB, burp |
+|   8  | Santa's Bag of Toys | powershell, certutil, github, Shellbads explorer by Eric Zimmerman |
+|   9  | Where Is All This Data Going | networking, wireshark, DNS, FTP, HTTP |
+|  10  | Offensive Is The Best Defence | networking, nmap, Apache vulnerability, path traversal, RCE |
+|  11  | Where Are The Reindeers? | networking, nmap, sqsh (database shell) |
+|  12  | Sharing Without Caring | networking, nmap, NFS |
+|  13  | They Lost The Plan! | networking, privesc, iperius backup service vulnerability, shell |
+|  14  | Dev(Insecure)Ops | CI\CD, gobuster, privesc |
+|  15  | The Grinchs day off | it is a day off! |
+|  16  | Ransomware Madness | OSINT, blockchain |
+|  17  | Elf Leaks | Cloud, AWS S3, AWS IAM, secretsmanager, STS |
+|  18  | Playing With Containers | Cloud, Dockerfile, Amazon Elastic Container Registry (ECR) |
+|  19  | Something Phishy Is Going On | Blue Teaming, phishing |
+|  20  | What's the Worst That Could Happen? | Blue Teaming, IOC, Strings, VT |
+|  21  | Needles In Computer Stacks | Blue Teaming, YARA |
+|  22  | How It Happened | Blue Teaming, cyberchef, oledump |
+|  23  | PowershEL\|F Magic | Blue Teaming, powershell, Event Viewer, logging |
